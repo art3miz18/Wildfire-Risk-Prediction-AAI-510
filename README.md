@@ -57,6 +57,8 @@ Build a model that predicts wildfire risk using weather-related data to support 
 - Evaluated using AUC, precision, recall, accuracy
 - Saved model using `joblib` as `wildfire_model.pkl`
 
+*The Notebook covers the following -*
+![Web App Screenshot](complete-notebook.png)  
 ---
 
 ## 🌐 Flask Web App
