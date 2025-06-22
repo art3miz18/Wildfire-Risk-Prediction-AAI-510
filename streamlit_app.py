@@ -18,6 +18,7 @@ def load_model():
 
 model = load_model()
 
+
 # Input features expected by the model
 FEATURES = ['FFMC', 'DMC', 'DC', 'ISI', 'temp', 'RH', 'wind', 'rain']
 
@@ -40,6 +41,7 @@ def main():
             st.error(f"Wildfire Risk: 🔥 {label}")
         else:
             st.success(f"Wildfire Risk: ✅ {label}")
+
 
 if __name__ == "__main__":
     main()
