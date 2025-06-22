@@ -78,18 +78,25 @@ A lightweight web interface built with Flask that lets users enter weather featu
 ### 📦 Step 1: Install Requirements
 
 ```bash
-pip install flask pandas scikit-learn joblib
+pip install -r requirements.txt
 ```
 
-### ▶️ Step 2: Run the Web App
+### ▶️ Step 2: Run the Flask Web App
 
 ```bash
 python app.py
 ```
 
-### 🌐 Step 3: Open in Browser
+### ▶️ Step 3: Run the Streamlit App
 
-Go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+```bash
+streamlit run streamlit_app.py
+```
+
+### 🌐 Step 4: Open in Browser
+
+For the Flask app, visit [http://127.0.0.1:5000](http://127.0.0.1:5000).
+The Streamlit app typically opens automatically at [http://localhost:8501](http://localhost:8501).
 
 ---
 
@@ -106,6 +113,7 @@ Go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 - **Pandas**, **Scikit-learn** (ML & preprocessing)
 - **Matplotlib**, **Seaborn** (visualizations)
 - **Flask** (web framework)
+- **Streamlit** (interactive UI)
 - **Joblib** (model serialization)
 
 ---
